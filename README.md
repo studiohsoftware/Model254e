@@ -23,23 +23,19 @@ Files for 254e Quad Control Voltage Processor
 * Confirm that the module was found, and take note of the COM port: 
 ```
 			Searching for COM ports...
-			<b>COM4</b> - Arduino LLC (www.arduino.cc) - USB\VID_03EB&PID_6124\5&1DB486CD&0&2<
+			COM4 - Arduino LLC (www.arduino.cc) - USB\VID_03EB&PID_6124\5&1DB486CD&0&2<
 			Found 1 port	
 ```
 		(If nothing found, press ERASE again. Repeat until the module appears.)
-	</li>
-	<li>Load the firmware using this command:<br/>
-		<font size="-1" face="Courier New">
-			bossac -e -w -i -d -v -U true -p=<i>com_port</i> -b <i>firmware_filename</i><br/>
-		</font>
-		Where <font size="-1" face="Courier New"><i>com_port</i></font> is the COM port noted in the previous step, and 
-		<font size="-1" face="Courier New"><i>firmware_filename</i></font> 
-		is the name of the firmware file you downloaded. <br/>
-		Example: 
-		<font size="-1" face="Courier New">
-			bossac -e -w -i -d -v -U true -p=COM4 -b Model254eV30.1.cpp.bin<br/>
-		</font>
-	</li>
-	<li>Power down the cabinet, replace the module, then power up the cabinet. </li>
-	<li>Press and hold the remote enable button on the module to display the firmware version on the preset manager.</li>
-</ul>
+
+* Load the firmware using this command:
+```
+			bossac -e -w -i -d -v -U true -p=com_port -b firmware_filename
+```
+* Where `com_port` is the COM port noted in the previous step, and `firmware_filename` is the name of the firmware file you downloaded. 
+	Example: 
+		```
+			bossac -e -w -i -d -v -U true -p=COM4 -b Model254eV30.1.cpp.bin
+		```		
+* Power down the cabinet, replace the module, then power up the cabinet. 
+* Press and hold the remote enable button on the module to display the firmware version on the preset manager.
