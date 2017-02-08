@@ -11,7 +11,7 @@ Files for 254e Quad Control Voltage Processor
 * Download the firmware file to the directory.
 * Run listComPorts -v. 
 * Confirm that the module was found: 
-``
+```
 			Searching for COM ports...
 			COM3 - Arduino LLC (www.arduino.cc) - USB\VID_2341&PID_003E&MI_00\6&36C3CEB1&0&0000 
 			Found 1 port	
