@@ -30,13 +30,13 @@ Files for 254e Quad Control Voltage Processor
 
 * Load the firmware using this command:
 ```
-			bossac -e -w -i -d -v -U true -p=com_port -b firmware_filename
+			bossac -e -w -i -v -b -U true -p=com_port -b firmware_filename
 ```
 * Where `com_port` is the COM port noted in the previous step, and `firmware_filename` is the name of the firmware file you downloaded. 
 
 	Example: 
 ```
-			bossac -e -w -i -d -v -U true -p=COM4 -b Model254eV30.1.cpp.bin
+			bossac -e -w -i -v -b -U true -p=COM4 Model254eV30.1.cpp.bin
 ```		
 * Power down the cabinet, replace the module, then power up the cabinet. 
 * Press and hold the remote enable button on the module to display the firmware version on the preset manager.
