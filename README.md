@@ -16,7 +16,7 @@ Files for 254e Quad Control Voltage Processor
 			COM3 - Arduino LLC (www.arduino.cc) - USB\VID_2341&PID_003E&MI_00\6&36C3CEB1&0&0000 
 			Found 1 port	
 ```
-* If the module was not found, stop here and troubleshoot your connection and Arduino installation. Do not proceed.
+* If the module was not found, stop here and troubleshoot your connection and Arduino installation. Do not proceed until the problem is resolved.
 * Press the ERASE button on the module.
 * Press the RESET button on the module (or cycle power.)
 * Again, run `listComPorts -v`
