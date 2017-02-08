@@ -3,8 +3,8 @@ Files for 254e Quad Control Voltage Processor
 
 
 <b>Updating Firmware</b>
-* test1
-* test2
+* Install Arduino IDE v1.5.8 [here] (https://www.arduino.cc/en/main/OldSoftwareReleases)
+* Power down cabinet, carefully remove module, leaving it connected to the cabinet.
 	
 <ul>
 	<li>Install Arduino IDE v1.5.8 <a href="https://www.arduino.cc/en/main/OldSoftwareReleases">here.</a></li>
