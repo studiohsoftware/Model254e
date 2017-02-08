@@ -32,7 +32,8 @@ Files for 254e Quad Control Voltage Processor
 ```
 			bossac -e -w -i -v -b -U true -p=com_port firmware_filename
 ```
-* Where `com_port` is the COM port noted in the previous step, and `firmware_filename` is the name of the firmware file you downloaded. 
+
+Where `com_port` is the COM port noted in the previous step, and `firmware_filename` is the name of the firmware file you downloaded. 
 
 	Example: 
 ```
