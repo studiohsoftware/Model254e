@@ -1,6 +1,7 @@
 # Model254e
 Files for 254e Quad Control Voltage Processor
 
+`test`
 <b>Updating Firmware</b>
 <ul>
 	<li>Install Arduino IDE v1.5.8 <a href="https://www.arduino.cc/en/main/OldSoftwareReleases">here.</a></li>
@@ -9,7 +10,7 @@ Files for 254e Quad Control Voltage Processor
 	<li>Power up the cabinet.</li>
 	<li>Using a Command Prompt, go to the bossac directory: C:\Program Files (x86)\Arduino\hardware\tools.</li>
 	<li>Download the firmware file to the directory.</li>
-	<li>Run `listComPorts` -v. <br/>
+	<li>Run listComPorts -v. <br/>
 		Confirm that the module was found: <br/>
 		<font size="-1" face="Courier New">
 			Searching for COM ports...<br/>
