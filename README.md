@@ -1,11 +1,11 @@
 # Model254e
 Files for 254e Quad Control Voltage Processor
 
-`test`
+
 <b>Updating Firmware</b>
 <ul>
-	<li>Install Arduino IDE v1.5.8 <a href="https://www.arduino.cc/en/main/OldSoftwareReleases">here.</a></li>
-	<li>Power down cabinet, carefully remove module, leaving it connected to the cabinet.</li>
+	- Install Arduino IDE v1.5.8 <a href="https://www.arduino.cc/en/main/OldSoftwareReleases">here.</a>
+	- Power down cabinet, carefully remove module, leaving it connected to the cabinet.
 	<li>Connect a micro USB cable between the module and your computer.</li>
 	<li>Power up the cabinet.</li>
 	<li>Using a Command Prompt, go to the bossac directory: C:\Program Files (x86)\Arduino\hardware\tools.</li>
