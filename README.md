@@ -26,8 +26,7 @@ Files for 254e Quad Control Voltage Processor
 			COM4 - Arduino LLC (www.arduino.cc) - USB\VID_03EB&PID_6124\5&1DB486CD&0&2
 			Found 1 port	
 ```
-(If nothing found, press ERASE again. Repeat until the module appears.)
-
+* If nothing found, press ERASE again. Repeat until the module appears.
 * Load the firmware using this command:
 ```
 			bossac -e -w -i -v -b -U true -p=com_port firmware_filename
