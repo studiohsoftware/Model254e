@@ -5,21 +5,17 @@ Files for 254e Quad Control Voltage Processor
 <b>Updating Firmware</b>
 * Install Arduino IDE v1.5.8 [here] (https://www.arduino.cc/en/main/OldSoftwareReleases).
 * Power down cabinet, carefully remove module, leaving it connected to the cabinet.
-	
-<ul>
-	<li>Install Arduino IDE v1.5.8 <a href="https://www.arduino.cc/en/main/OldSoftwareReleases">here.</a></li>
-	<li>Power down cabinet, carefully remove module, leaving it connected to the cabinet.</li>
-	<li>Connect a micro USB cable between the module and your computer.</li>
-	<li>Power up the cabinet.</li>
-	<li>Using a Command Prompt, go to the bossac directory: C:\Program Files (x86)\Arduino\hardware\tools.</li>
-	<li>Download the firmware file to the directory.</li>
-	<li>Run listComPorts -v. <br/>
-		Confirm that the module was found: <br/>
-		<font size="-1" face="Courier New">
-			Searching for COM ports...<br/>
-			COM3 - Arduino LLC (www.arduino.cc) - USB\VID_2341&PID_003E&MI_00\6&36C3CEB1&0&0000 <br/>
-			Found 1 port	<br/>
-		</font>
+* Connect a micro USB cable between the module and your computer.
+* Power up the cabinet.
+* Using a Command Prompt, go to the bossac directory: C:\Program Files (x86)\Arduino\hardware\tools.
+* Download the firmware file to the directory.
+* Run listComPorts -v. 
+* Confirm that the module was found: 
+``
+			Searching for COM ports...
+			COM3 - Arduino LLC (www.arduino.cc) - USB\VID_2341&PID_003E&MI_00\6&36C3CEB1&0&0000 
+			Found 1 port	
+```
 	</li>
 	<li>Press the ERASE button on the module.</li>
 	<li>Press the RESET button on the module (or cycle power.)</li>
