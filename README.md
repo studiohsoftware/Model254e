@@ -6,9 +6,9 @@ Files for 254e Quad Control Voltage Processor
 * Install Arduino IDE v1.5.8 [here] (https://www.arduino.cc/en/main/OldSoftwareReleases).
 * Power down cabinet, carefully remove module, leaving it connected to the cabinet.
 * Connect a micro USB cable between the module and your computer.
-* Power up the cabinet.
 * Using a Command Prompt, go to the bossac directory: C:\Program Files (x86)\Arduino\hardware\tools.
 * Download the firmware file to the directory.
+* Power up the cabinet.
 * Run `listComPorts -v`
 * Confirm that the module was found: 
 ```
