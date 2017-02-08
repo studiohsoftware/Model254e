@@ -16,16 +16,16 @@ Files for 254e Quad Control Voltage Processor
 			COM3 - Arduino LLC (www.arduino.cc) - USB\VID_2341&PID_003E&MI_00\6&36C3CEB1&0&0000 
 			Found 1 port	
 ```
-	</li>
-	<li>Press the ERASE button on the module.</li>
-	<li>Press the RESET button on the module (or cycle power.)</li>
-	<li>Again, run <font size="-1" face="Courier New">listComPorts -v</font>. <br/>
-		Confirm that the module was found, and take note of the COM port: <br/>
-		<font size="-1" face="Courier New">
-			Searching for COM ports...<br/>
-			<b>COM4</b> - Arduino LLC (www.arduino.cc) - USB\VID_03EB&PID_6124\5&1DB486CD&0&2<br/>
-			Found 1 port	<br/>
-		</font>
+
+* Press the ERASE button on the module.
+* Press the RESET button on the module (or cycle power.)
+* Again, run `listComPorts -v`
+* Confirm that the module was found, and take note of the COM port: 
+```
+			Searching for COM ports...
+			<b>COM4</b> - Arduino LLC (www.arduino.cc) - USB\VID_03EB&PID_6124\5&1DB486CD&0&2<
+			Found 1 port	
+```
 		(If nothing found, press ERASE again. Repeat until the module appears.)
 	</li>
 	<li>Load the firmware using this command:<br/>
