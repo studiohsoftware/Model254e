@@ -9,7 +9,7 @@ Files for 254e Quad Control Voltage Processor
 * Power up the cabinet.
 * Using a Command Prompt, go to the bossac directory: C:\Program Files (x86)\Arduino\hardware\tools.
 * Download the firmware file to the directory.
-* Run listComPorts -v. 
+* Run `listComPorts -v`
 * Confirm that the module was found: 
 ```
 			Searching for COM ports...
