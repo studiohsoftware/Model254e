@@ -3,7 +3,7 @@ Files for 254e Quad Control Voltage Processor
 
 
 ## Firmware Update Procedure
-* Download the BOSSA firmware flashing utility [here](https://sourceforge.net/projects/b-o-s-s-a/files/1.2.1/) and install.
+* Download the firmware flashing utility BOSSA [here](https://sourceforge.net/projects/b-o-s-s-a/files/1.2.1/) and install.
 * Download the firmware file.
 * Power down cabinet, carefully remove module, leaving it connected to the cabinet.
 
