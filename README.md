@@ -14,9 +14,9 @@ Files for 254e Quad Control Voltage Processor
 * Press the Refresh button in BOSSA and confirm that a COM port shows up in the dropdown list. If a COM port does not appear, troubleshoot the USB connection.
 * Press the ERASE button on the module.
 * Press the RESET button on the module.
-* Again press the Refresh button in BOSSA, and this time select the COM port.
-* Browse to the firmware file you downloaded.
+* Again press the `Refresh` button in BOSSA, and this time select the COM port.
+* Click `Browse` in BOSSA and browse to the firmware file you downloaded.
 * Make sure the `Erase All` and `Boot to Flash` boxes are checked (and nothing else).
-* Press the Write button in BOSSA to write the firmware to the module.
+* Press the `Write` button in BOSSA to write the firmware to the module.
 * Shut down the cabinet, reinstall the module, and power up the cabinet.
 * Press and hold Remote Enable to view the firmware version on the preset manager.
